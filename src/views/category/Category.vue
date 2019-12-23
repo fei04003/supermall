@@ -1,0 +1,184 @@
+<template>
+  <div class="wrapper">
+    <div class="content">
+      <div></div>
+      <!--
+      <ul>
+        <li>xoo1</li>
+        <li>xoo2</li>
+        <li>xoo3</li>
+        <li>xoo4</li>
+        <li>xoo5</li>
+        <li>xoo6</li>
+        <li>xoo7</li>
+        <li>xoo8</li>
+        <li>xoo9</li>
+        <li>xoo10</li>
+        <li>xoo11</li>
+        <li>xoo12</li>
+        <li>xoo13</li>
+        <li>xoo14</li>
+        <li>xoo15</li>
+        <li>xoo16</li>
+        <li>xoo17</li>
+        <li>xoo18</li>
+        <li>xoo19</li>
+        <li>wwiii1</li>
+        <li>wwiii2</li>
+        <li>wwiii3</li>
+        <li>wwiii4</li>
+        <li>wwiii5</li>
+        <li>wwiii6</li>
+        <li>wwiii7</li>
+        <li>wwiii8</li>
+        <li>wwiii9</li>
+        <li>wwiii10</li>
+        <li>wwiii11</li>
+        <li>wwiii12</li>
+        <li>wwiii13</li>
+        <li>wwiii14</li>
+        <li>wwiii15</li>
+        <li>wwiii16</li>
+        <li>wwiii17</li>
+        <li>wwiii18</li>
+        <li>wwiii19</li>
+        <li>wwiii20</li>
+        <li>wwiii21</li>
+        <li>wwiii22</li>
+        <li>wwiii23</li>
+        <li>wwiii24</li>
+        <li>wwiii25</li>
+        <li>wwiii26</li>
+        <li>wwiii27</li>
+        <li>wwiii28</li>
+        <li>wwiii29</li>
+        <li>wwiii30</li>
+        <li>wwiii31</li>
+        <li>wwiii32</li>
+        <li>wwiii33</li>
+        <li>wwiii34</li>
+        <li>wwiii35</li>
+        <li>wwiii36</li>
+        <li>wwiii37</li>
+        <li>wwiii38</li>
+        <li>wwiii39</li>
+        <li>wwiii40</li>
+        <li>wwiii41</li>
+        <li>wwiii42</li>
+        <li>wwiii43</li>
+        <li>wwiii44</li>
+        <li>wwiii45</li>
+        <li>wwiii46</li>
+        <li>wwiii47</li>
+        <li>wwiii48</li>
+        <li>wwiii49</li>
+        <li>wwiii50</li>
+        <li>wwiii51</li>
+        <li>wwiii52</li>
+        <li>wwiii53</li>
+        <li>wwiii54</li>
+        <li>wwiii55</li>
+        <li>wewe1</li>
+        <li>wewe2</li>
+        <li>wewe3</li>
+        <li>wewe4</li>
+        <li>wewe5</li>
+        <li>wewe6</li>
+        <li>wewe7</li>
+        <li>wewe8</li>
+        <li>wewe9</li>
+        <li>wewe10</li>
+        <li>wewe11</li>
+        <li>wewe12</li>
+        <li>wewe13</li>
+        <li>wewe14</li>
+        <li>wewe15</li>
+        <li>wewe16</li>
+        <li>wewe17</li>
+        <li>wewe18</li>
+        <li>wewe19</li>
+        <li>wewe20</li>
+        <li>wewe21</li>
+        <li>wewe22</li>
+        <li>wewe23</li>
+        <li>wewe24</li>
+        <li>wewe25</li>
+        <li>wewe26</li>
+        <li>wewe27</li>
+        <li>wewe28</li>
+        <li>wewe29</li>
+        <li>wewe30</li>
+        <li>wewe31</li>
+        <li>wewe32</li>
+        <li>wewe33</li>
+        <li>wewe34</li>
+        <li>wewe35</li>
+        <li>wewe36</li>
+        <li>wewe37</li>
+        <li>wewe38</li>
+        <li>wewe39</li>
+        <li>wewe40</li>
+        <li>wewe41</li>
+        <li>wewe42</li>
+        <li>wewe43</li>
+        <li>wewe44</li>
+        <li>wewe45</li>
+        <li>wewe46</li>
+        <li>wewe47</li>
+        <li>wewe48</li>
+        <li>wewe49</li>
+        <li>wewe50</li>
+        <li>wewe51</li>
+        <li>wewe52</li>
+        <li>wewe53</li>
+        <li>wewe54</li>
+        <li>wewe55</li>
+        <li>wewe56</li>
+        <li>wewe57</li>
+        <li>wewe58</li>
+        <li>wewe59</li>
+        <li>wewe60</li>
+        <li>wewe61</li>
+        <li>wewe62</li>
+        <li>wewe63</li>
+        <li>wewe64</li>
+        <li>wewe65</li>
+        <li>wewe66</li>
+        <li>wewe67</li>
+        <li>wewe68</li>
+        <li>wewe69</li>
+        <li>wewe70</li>
+        <li>wewe71</li>
+        <li>wewe72</li>
+        <li>wewe73</li>
+        <li>wewe74</li>
+        <li>wewe75</li>
+        <li>wewe76</li>
+        <li>wewe77</li>
+      </ul>-->
+    </div>
+  </div>
+</template>
+
+<script>
+import Bscroll from "better-scroll";
+export default {
+  name: "category",
+  data() {
+    return {
+      scroll: null
+    };
+  },
+  mounted() {
+    this.scroll = new Bscroll(document.querySelector(".wrapper"), {});
+  }
+};
+</script>
+
+<style scoped>
+.wrapper {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+</style>
